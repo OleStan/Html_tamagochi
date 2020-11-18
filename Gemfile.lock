@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    html_tam (0.2.4)
+    html_tam (0.2.6)
 
 GEM
   remote: https://rubygems.org/

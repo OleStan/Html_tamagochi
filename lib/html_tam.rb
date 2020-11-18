@@ -106,15 +106,7 @@ class Page_creater
 
   def ui_img(page)
     page.puts "<div id='render'>"
-    page.puts "<div class='pet_ui'>    ,</div>"
-    page.puts "<div class='pet_ui'>       |`-.__</div>"
-    page.puts "<div class='pet_ui'>       / ' _/</div>"
-    page.puts "<div class='pet_ui'>      ****`</div>"
-    page.puts "<div class='pet_ui'>     /    }</div>"
-    page.puts "<div class='pet_ui'>    /  1 /</div>"
-    page.puts "<div class='pet_ui'>1 /`   lll</div>"
-    page.puts "<div class='pet_ui'>`l     /_ll</div>"
-    page.puts "<div class='pet_ui'>  `~~~~~``~`</div>"
+      page.puts "<div class='pet_ui'>&#128054;</div>"
     page.puts '</div>'
   end
 
@@ -147,11 +139,7 @@ class Page_creater
     page.puts "<title>hw3</title>    <link rel='stylesheet' href='main.css'>"
     page.puts '</head>'
     page.puts '<body>'
-    page.puts "<div class='sad_end'> ,-=-.</div>"
-    page.puts "<div class='sad_end'>/  +  l</div>"
-    page.puts "<div class='sad_end'>| ~~~ |</div>"
-    page.puts "<div class='sad_end'>|R.I.P|</div>"
-    page.puts "<div class='sad_end'>|_____|</div>"
+    page.puts "<div class='sad_end'>&#128128;</div>"
     action_ch(page)
     page.puts '</body>'
     page.puts '</html>'
@@ -168,18 +156,7 @@ class Page_creater
     page.puts "<title>hw3</title>    <link rel='stylesheet' href='main.css'>"
     page.puts '</head>'
     page.puts '<body>'
-    page.puts "<div class='sad_end'>_____   ___  ___  ___ _____</div>"
-    page.puts "<div class='sad_end'>|  __ l / _ l |  l/  ||  ___|</div>"
-    page.puts "<div class='sad_end'>| |  l// /_l l| .  . || |__</div>"
-    page.puts "<div class='sad_end'>| | __ |  _  || |l/| ||  __|</div>"
-    page.puts "<div class='sad_end'>| |_l l| | | || |  | || |___</div>"
-    page.puts "<div class='sad_end'>l____/l_| |_/l_|  |_/l____/</div>"
-    page.puts "<div class='sad_end'>    _____  _   _ ___________</div>"
-    page.puts "<div class='sad_end'>|  _  || | | |  ___| ___ l</div>"
-    page.puts "<div class='sad_end'>| | | || | | | |__ | |_/ /</div>"
-    page.puts "<div class='sad_end'>| | | || | | |  __||    /</div>"
-    page.puts "<div class='sad_end'>l l_/ /l l_/ / |___| |l l</div>"
-    page.puts "<div class='sad_end'>l___/  l___/l____/l_| l_|</div>"
+    page.puts "<div class='sad_end'>&#10060;</div>"
     action_ch(page)
     page.puts '</body>'
     page.puts '</html>'
